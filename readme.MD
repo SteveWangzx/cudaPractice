@@ -1,10 +1,10 @@
 <h1>Cuda Programming Practice</h1>
 <p>
 This repository is a practice records for cuda programming.
-The code is based on <strong>《CUDA编程：基础与实践》</strong> by <em>Zheyong Fan.</em>
+The code is based on <strong>《CUDA编程：基础与实践》</strong> by <strong><em>Zheyong Fan.</em></strong>
 </p>
 
-The github [repository](https://github.com/brucefan1983/CUDA-Programming) from <em>Zheyong Fan</em>
+The github [repository](https://github.com/brucefan1983/CUDA-Programming) from <strong><em>Zheyong Fan</em></strong>
 
 > A guide compile the <code>.cu</code> file
 
