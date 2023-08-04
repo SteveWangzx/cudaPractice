@@ -2,7 +2,11 @@
     "files.associations": {
         "algorithm": "cpp",
         "iostream": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "sstream": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.dimInactiveRegions": false
 }
