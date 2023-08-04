@@ -20,19 +20,22 @@ The github [repository](https://github.com/brucefan1983/CUDA-Programming) from <
 
 > Some code example
 
-    #include <stdio.h>
+```cpp
+#include <stdio.h>
     
-    __global__ void kernel(void); // Declaration first.
+__global__ void kernel(void); // Declaration first.
 
-    int main()
-    {
-        kernel<<<1, 4>>>(); // Define grid_size and block_size;
-    }
+int main()
+{
+    kernel<<<1, 4>>>(); // Define grid_size and block_size;
+    cudaDeviceSynchronize();
+}
 
-    __global__ void kernel(void)
-    {
-        int idx = threadIdx.x;
-        printf("Hello World from thread %d!\n", idx);
-    }
+__global__ void kernel(void)
+{
+    int idx = threadIdx.x;
+    printf("Hello World from thread %d!\n", idx)；
+}
+```
 
 
